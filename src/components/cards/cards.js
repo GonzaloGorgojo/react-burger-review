@@ -11,7 +11,14 @@ export function Cards(props) {
         textTransform: "capitalize",
       }}
     >
-      <Card.Header>User: {props.userName}</Card.Header>
+      <Card.Header
+        style={{
+          fontSize: "1.5rem",
+          fontWeight: "bolder",
+        }}
+      >
+        {props.userName}
+      </Card.Header>
       <Card.Body>
         <Card.Title>Shop: {props.shop}</Card.Title>
         <Card.Title>Burger: {props.burger}</Card.Title>
