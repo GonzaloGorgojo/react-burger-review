@@ -14,7 +14,7 @@ ReactDOM.render(
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route exact path="/BurgerProject_FrontEnd">
+        <Route exact path="/home">
           <Home />
         </Route>
         <Route exact path="/watch">
