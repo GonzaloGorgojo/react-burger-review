@@ -17,10 +17,10 @@ ReactDOM.render(
         <Route exact path="/BurgerProject_FrontEnd">
           <Home />
         </Route>
-        <Route exact path="/watch">
+        <Route exact path="/BurgerProject_FrontEnd/watch">
           <Reviews />
         </Route>
-        <Route exact path="/send">
+        <Route exact path="/BurgerProject_FrontEnd/send">
           <FormReview />
         </Route>
       </Switch>

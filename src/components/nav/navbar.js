@@ -20,10 +20,10 @@ export function NavBar() {
           <LinkContainer to={"/BurgerProject_FrontEnd"}>
             <Nav.Link className=" px-4">Home</Nav.Link>
           </LinkContainer>
-          <LinkContainer to={"/watch"}>
+          <LinkContainer to={"/BurgerProject_FrontEnd/watch"}>
             <Nav.Link className=" px-4">Watch Reviews</Nav.Link>
           </LinkContainer>
-          <LinkContainer to={"/send"}>
+          <LinkContainer to={"/BurgerProject_FrontEnd/send"}>
             <Nav.Link className=" px-4">Send Reviews</Nav.Link>
           </LinkContainer>
         </Nav>
