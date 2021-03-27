@@ -17,7 +17,7 @@ export function NavBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="text-center">
         <Nav className="nav mx-auto">
-          <LinkContainer to={"/home"}>
+          <LinkContainer to={"/BurgerProject_FrontEnd"}>
             <Nav.Link className=" px-4">Home</Nav.Link>
           </LinkContainer>
           <LinkContainer to={"/watch"}>
