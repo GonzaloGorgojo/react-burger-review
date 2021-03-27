@@ -165,6 +165,7 @@ export function FormReview() {
             placeholder="Rank your Burger..."
             required
           />
+          <Form.Text>Min: 1 - Max: 100</Form.Text>
         </Form.Group>
 
         <Form.Group>
