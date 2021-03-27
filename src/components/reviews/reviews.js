@@ -6,14 +6,10 @@ export function Reviews() {
   const [reviews, setReviews] = useState(null);
 
   useEffect(() => {
-    loadReviews();
-  }, []);
-
-  const loadReviews = () => {
     fetch("https://burgers-reviews.herokuapp.com/api/reviews")
       .then((response) => response.json())
       .then((data) => setReviews(data));
-  };
+  }, []);
 
   return (
     <Container>
