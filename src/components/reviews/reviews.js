@@ -16,16 +16,18 @@ export function Reviews() {
     <Container id="containerCarousel">
       <Carousel verticalMode itemsToShow={1}>
         {reviews ? (
-          reviews.map((review, key) => (
-            <Cards
-              key={key}
-              userName={review.userName}
-              shop={review.shop}
-              burger={review.burger}
-              ranking={review.ranking}
-              comment={review.comment}
-            ></Cards>
-          ))
+          reviews.map((review, key) =>
+            review.status === 0 ? null : (
+              <Cards
+                key={key}
+                userName={review.userName}
+                shop={review.shop}
+                burger={review.burger}
+                ranking={review.ranking}
+                comment={review.comment}
+              ></Cards>
+            )
+          )
         ) : (
           <Spinner animation="border" role="status" variant="success">
             <span className="sr-only">Loading...</span>
