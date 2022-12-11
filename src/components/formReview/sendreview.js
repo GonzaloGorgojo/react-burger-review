@@ -20,12 +20,12 @@ export function FormReview() {
   const handleCloseTwo = () => setShowTwo(false);
   //get All te names //
   let userNames = [];
-  axios.get("https://burgers-reviews.herokuapp.com/api/reviews").then((res) => {
+  axios.get("https://burger-reviews.onrender.com/api/reviews").then((res) => {
     for (let i = 0; i < res.data.length; i++)
       userNames.push(res.data[i].userName);
   });
   // Set data to send //
-  const URL = "https://burgers-reviews.herokuapp.com/api/review";
+  const URL = "https://burger-reviews.onrender.com/api/review";
   const [review, setReview] = useState({
     userName: "",
     country: "",

@@ -7,7 +7,7 @@ export function Reviews() {
   const [reviews, setReviews] = useState(null);
 
   useEffect(() => {
-    fetch("https://burgers-reviews.herokuapp.com/api/reviews")
+    fetch("https://burger-reviews.onrender.com/api/reviews")
       .then((response) => response.json())
       .then((data) => setReviews(data));
   }, []);
