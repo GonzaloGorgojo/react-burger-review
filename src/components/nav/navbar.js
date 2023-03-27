@@ -17,13 +17,13 @@ export function NavBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="text-center">
         <Nav className="nav mx-auto">
-          <LinkContainer to={"/BurgerProject_FrontEnd"}>
+          <LinkContainer to={"/react-burger-review"}>
             <Nav.Link className=" px-4">Home</Nav.Link>
           </LinkContainer>
-          <LinkContainer to={"/BurgerProject_FrontEnd/watch"}>
+          <LinkContainer to={"/react-burger-review/watch"}>
             <Nav.Link className=" px-4">Watch Reviews</Nav.Link>
           </LinkContainer>
-          <LinkContainer to={"/BurgerProject_FrontEnd/send"}>
+          <LinkContainer to={"/react-burger-review/send"}>
             <Nav.Link className=" px-4">Send Reviews</Nav.Link>
           </LinkContainer>
         </Nav>

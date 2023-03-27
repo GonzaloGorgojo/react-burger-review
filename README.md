@@ -14,10 +14,13 @@ This is a React APP that show peoples reviews about their favorite burgers and a
 
 ### :floppy_disk: Where is this APP deployed ?
 
-[GH-Pages](https://gonzalogorgojo.github.io/BurgerProject_FrontEnd)
+[GH-Pages](https://gonzalogorgojo.github.io/react-burger-review/)
 
 ### :bulb: How do i use this ?
 
-Download/Fork/Clone then `NPM Install`<br>
+Download/Fork/Clone then
+
+1. `npm install`<br>
+2. `npm start`
 
 #### This was made by [Gonzalo Gorgojo !](https://www.linkedin.com/in/gonzalogorgojo/), feel free to contact me for everything you need !

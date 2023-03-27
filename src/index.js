@@ -14,13 +14,13 @@ ReactDOM.render(
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route exact path="/BurgerProject_FrontEnd">
+        <Route exact path="/react-burger-review">
           <Home />
         </Route>
-        <Route exact path="/BurgerProject_FrontEnd/watch">
+        <Route exact path="/react-burger-review/watch">
           <Reviews />
         </Route>
-        <Route exact path="/BurgerProject_FrontEnd/send">
+        <Route exact path="/react-burger-review/send">
           <FormReview />
         </Route>
       </Switch>
