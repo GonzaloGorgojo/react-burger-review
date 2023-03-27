@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/BurgerProject_FrontEnd/static/css/main.fae57d21.chunk.css",
-    "main.js": "/BurgerProject_FrontEnd/static/js/main.3ccd70f5.chunk.js",
-    "main.js.map": "/BurgerProject_FrontEnd/static/js/main.3ccd70f5.chunk.js.map",
-    "runtime-main.js": "/BurgerProject_FrontEnd/static/js/runtime-main.41bd2da3.js",
-    "runtime-main.js.map": "/BurgerProject_FrontEnd/static/js/runtime-main.41bd2da3.js.map",
-    "static/css/2.4c34b247.chunk.css": "/BurgerProject_FrontEnd/static/css/2.4c34b247.chunk.css",
-    "static/js/2.4235321c.chunk.js": "/BurgerProject_FrontEnd/static/js/2.4235321c.chunk.js",
-    "static/js/2.4235321c.chunk.js.map": "/BurgerProject_FrontEnd/static/js/2.4235321c.chunk.js.map",
-    "index.html": "/BurgerProject_FrontEnd/index.html",
-    "static/css/2.4c34b247.chunk.css.map": "/BurgerProject_FrontEnd/static/css/2.4c34b247.chunk.css.map",
-    "static/css/main.fae57d21.chunk.css.map": "/BurgerProject_FrontEnd/static/css/main.fae57d21.chunk.css.map",
-    "static/js/2.4235321c.chunk.js.LICENSE.txt": "/BurgerProject_FrontEnd/static/js/2.4235321c.chunk.js.LICENSE.txt"
+    "main.css": "/react-burger-review/static/css/main.fae57d21.chunk.css",
+    "main.js": "/react-burger-review/static/js/main.1a137511.chunk.js",
+    "main.js.map": "/react-burger-review/static/js/main.1a137511.chunk.js.map",
+    "runtime-main.js": "/react-burger-review/static/js/runtime-main.bce76405.js",
+    "runtime-main.js.map": "/react-burger-review/static/js/runtime-main.bce76405.js.map",
+    "static/css/2.4c34b247.chunk.css": "/react-burger-review/static/css/2.4c34b247.chunk.css",
+    "static/js/2.b86a7e18.chunk.js": "/react-burger-review/static/js/2.b86a7e18.chunk.js",
+    "static/js/2.b86a7e18.chunk.js.map": "/react-burger-review/static/js/2.b86a7e18.chunk.js.map",
+    "index.html": "/react-burger-review/index.html",
+    "static/css/2.4c34b247.chunk.css.map": "/react-burger-review/static/css/2.4c34b247.chunk.css.map",
+    "static/css/main.fae57d21.chunk.css.map": "/react-burger-review/static/css/main.fae57d21.chunk.css.map",
+    "static/js/2.b86a7e18.chunk.js.LICENSE.txt": "/react-burger-review/static/js/2.b86a7e18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.41bd2da3.js",
+    "static/js/runtime-main.bce76405.js",
     "static/css/2.4c34b247.chunk.css",
-    "static/js/2.4235321c.chunk.js",
+    "static/js/2.b86a7e18.chunk.js",
     "static/css/main.fae57d21.chunk.css",
-    "static/js/main.3ccd70f5.chunk.js"
+    "static/js/main.1a137511.chunk.js"
   ]
 }
